@@ -28,8 +28,7 @@ Comments _CommentsFromJson(Map<String, dynamic> json) {
       placeNameId: json['placeNameId'] as placenames?,
       content: json['content'] as String,
       date: json['date'] as DateTime,
-      );
-}
+      );}
 Map<String, dynamic> _CommentsToJson(Comments instance) => <String, dynamic>{
       'accountID': instance.accountID,
       'placeNameId': instance.placeNameId,
